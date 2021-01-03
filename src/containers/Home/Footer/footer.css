@@ -43,6 +43,7 @@
         width: 20rem;
         height: 95%;
         padding: 0rem 1rem;
+        display: inline;
     }
     .contact-container svg{
         width: 3rem;

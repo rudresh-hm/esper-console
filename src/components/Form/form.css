@@ -1,0 +1,12 @@
+input{
+    border-width: 0rem;
+}
+.form{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+.form-group{
+    width: 100%;
+    
+}

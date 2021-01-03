@@ -1,0 +1,49 @@
+.header-container{
+    background-color: var(--primary);
+    height: 100vh;
+    padding-left: 3.5rem;
+    position: relative;
+}
+.header-container > div > h1{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding-top: 6rem;
+    width: 80%;
+}
+#scroll-icon{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-left:-0.5rem;
+}
+#header-ill{
+    display: none;
+}
+@media only screen and (min-width: 900px) {
+    .header-container{
+        width: 70%;
+        height: 90vh;
+        padding-left: 8rem;
+    }
+    .header-container div > h1{
+        font-size: 5.5rem;
+        font-weight: 500;
+        width: 75%;
+        padding-top: 11rem;
+    }
+    #scroll-icon{
+        width: 6rem;
+        height: 6rem;
+        margin-top: 6rem;
+    }
+    #header-ill{
+        position: absolute;
+        top:8rem;
+        left:100%;
+        transform: translate(-50%,0%);
+        width: 45rem;
+        height: 45rem;
+        display: block;
+    }
+}

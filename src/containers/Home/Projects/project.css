@@ -1,0 +1,56 @@
+.project-container{
+    height:60vh;
+    background-color: var(--primary);
+    padding-left: 3.5rem;
+    padding-top: 2.5rem;
+    position: relative;
+}
+.project-container h1{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding:1rem 0rem;
+}
+.btn-more{
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: var(--accent-two);
+}
+#project-ill{
+    display: none;
+    width: 20rem;
+    height: 20rem;
+}
+@media only screen and (min-width: 900px) {
+    .project-container{
+        margin-top: 10rem;
+        width: 70%;
+        padding-left: 8rem;
+        height: 75vh;
+        margin-bottom: 10rem;
+    }
+    .project-container h1{
+        font-size: 4rem;
+        margin-left: 0;
+    }
+    .project-container p{
+        margin-left: 0;
+        font-size: 2rem;
+    }
+    .btn-more{
+        font-size: 2.5rem;
+        padding: 1rem 2.5rem;
+        margin-top: 1rem;
+    }
+    #project-ill{
+        display: block;
+        width: 40rem;
+        height: 40rem;
+    }
+    #project-ill-holder{
+        position: absolute;
+        left:80%;
+        top:40%;
+    }
+}

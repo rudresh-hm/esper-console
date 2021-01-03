@@ -1,0 +1,35 @@
+.login h1{
+    margin-bottom: 2rem;
+    font-size: 4rem !important;
+}
+.form-input{
+    width: 55%;
+    font-size: 2rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.btn{
+    border-width: 0rem;
+    cursor: pointer;
+}
+.btn-login{
+    width: 55%;
+    padding: 1.2rem 1rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    background-color: var(--accent-two);
+    border-radius: 0.5rem;
+}
+input:focus{
+    outline: none;
+}
+@media screen and (max-width: 600px) {
+    .form-input{
+        width: 80%;
+    }    
+    .btn-login{
+        width: 80%;
+    }
+}

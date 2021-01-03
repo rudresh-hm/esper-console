@@ -1,0 +1,30 @@
+.device-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.group-name{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(247, 37, 132, 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-letter{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.device-group p{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 2rem;
+    transition: all 200ms ease-in;
+}
+
+.device-group:hover p{
+    transform: scale(1.2);
+}

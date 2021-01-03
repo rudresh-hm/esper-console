@@ -1,0 +1,99 @@
+.device-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 2rem 0rem 2rem;
+}
+.device-header svg{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.device-card{
+    border-radius: 2rem;
+    background-color: white;
+    transition: all 200ms ease-in-out;
+}
+.device-name{
+    display: flex;
+    align-items: center;
+}
+.device-name h3{
+    font-size: 2.2rem;
+    color: #504C4C;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.device-name svg{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.device-actions{
+    margin-top: 3rem;
+    padding: 0rem 2rem;
+}
+.device-actions h4{
+    font-size: 2rem;
+    color: #42C7F0;
+    margin-bottom: 2rem;
+}
+.action-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.action-container svg{
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all 200ms ease-in-out;
+}
+.action-container p{
+    font-size: 1.8rem;
+    color: #504C4C;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+.device-info{
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    padding:0rem 2rem;
+}
+.device-info span{
+    display: block;
+    display: flex;
+    font-size: 1.2rem;
+    color: #504C4C;
+    margin-bottom: 0.5rem;
+    
+}
+.device-info span svg{
+    margin-left: 1rem;
+}
+.device-details{
+    background-color: #4361EE;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius:2rem ;
+    border-bottom-right-radius:2rem ;
+    cursor: pointer;
+}
+.device-details p{
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0rem;
+}
+.device-details:hover{
+    background-color: rgba(67, 98, 238, 0.9)
+}
+.action-container:hover svg{
+    fill: #F04242;
+    transform: scale(1.2);
+}
+.device-card:hover{
+    transform: scale(1.1);
+}
